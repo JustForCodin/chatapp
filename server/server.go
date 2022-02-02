@@ -101,10 +101,6 @@ func index(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Chat web server"))
 }
 
-func foo() {
-
-}
-
 func Start() {
 	port := ":7334"
 
